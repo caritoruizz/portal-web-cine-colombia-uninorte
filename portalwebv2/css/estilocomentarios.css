@@ -1,0 +1,98 @@
+.encabezado{
+
+	background-color: dimgrey;
+	width: 100%; height: 150%;
+}
+
+
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	overflow: hidden;
+  background-color: dimgray;
+}
+
+
+li{
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+
+li a:hover {
+	background-color: #111;
+
+  }
+
+
+.logo{
+
+	width: 15%; height: 10%;
+	float: right;
+}
+
+
+.comment{
+    text-align: center;
+    font-size: 50px;
+    
+}
+.imagen{
+
+    width: 250px; height:250px ;
+    display: inline;
+    margin-left: 550px;
+}
+#entrada{
+
+    margin-left: 550px;
+    display: inline;
+    width: 200px;
+    height: 100px;
+    border: solid 3px;
+    border-radius: 3px;
+    border-color: black;
+}
+#btn_comentar{
+
+background-color:whitesmoke;
+border: solid black 2px;
+    
+}
+
+#btn_comentar:hover{
+
+    color: black;
+    background-color: aquamarine;
+}
+
+body{
+
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+.cartelera1{
+
+    width: 250px; height: 300px;
+    margin-left: 50px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(72, 113, 196);
+}
+
+p{
+
+    font-size: 10px;
+}

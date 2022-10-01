@@ -1,0 +1,87 @@
+header {
+  background: dimgray;
+  width: 100%; height: 100%;
+}
+
+.logo{
+
+  width: 15%; height: 10%;
+
+}
+
+.logoperfil{
+
+  width: 200px; height: 200px;
+  border-radius: 100px;
+  border-style:solid ;
+  border-color: lightblue;
+  margin-left: 575px;
+  margin-top: 50px;
+}
+
+.logoperfil1{
+
+  background-color: lightcyan;
+  width: 100%; height: 300px;
+
+}
+
+.perfil{
+
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+  background-color: lightcyan;
+  width: 100%; height: 100px;
+  border-bottom: 50px;
+}
+
+
+.pie{
+
+margin-top: 100px;
+
+}
+
+.menu1 ul{
+  background: dimgray;
+  width: 100%; height: 200px;
+  z-index: 100;
+
+}
+
+h3{
+  text-align: center;
+  width: 100%; height: 120px;
+  font-family: cursive;
+  font-size: 40px;
+
+
+}
+
+.menu1 {
+  float: right;
+}
+
+.menu1 ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+.menu1 ul li {
+  margin-left: 250px;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;;
+  font-size: 20px;
+}
+
+.menu1 ul li a {
+  display: block; 
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu1 ul li:hover {
+  background: #eca023;
+}
